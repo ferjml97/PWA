@@ -24,7 +24,7 @@ html {
 }
 
 body {
-  margin: 2rem auto;
+  margin: 1rem auto;
   overflow-x: hidden;
   max-width: 800px;
 }
@@ -56,17 +56,9 @@ p {
   max-width: 150px;
 }
 
-.Header nav {
-  padding: 2rem 0;
-  display: flex;
-  justify-content: space-evenly;
-  font-size: 3rem;
-}
-
 .Main {
   position: relative;
   margin: 0 auto;
-  padding-bottom: 56.25%; /* 16:9 */
 }
 
 .Main iframe {
@@ -117,7 +109,7 @@ p {
   }
   
   .cards .card > .contenido-texto-card p{
-    font-weight: 300;
+    font-weight: 10;
     padding-top: 2rem;
     padding-bottom: 0;
     margin-bottom: 0;
@@ -132,14 +124,13 @@ p {
   .Foot h1 {
     color: #fff;
     padding-bottom: 5px;
-    padding: 1rem 0;
     display: flex;
     justify-content: space-evenly;
     font-size: 2rem;
   }
 
   .Foot nav {
-    padding: 2rem 0;
+    padding: 1rem 0;
     display: flex;
     justify-content: space-evenly;
     font-size: 3rem;
@@ -153,7 +144,7 @@ p {
 
   footer{
     background: #2B2B2B;    /*#1f1e1e;*/
-    padding: 60px 0 30px 0;
+    padding: 20px 0 10px 0;
     margin: auto;
     overflow: hidden;
   }
